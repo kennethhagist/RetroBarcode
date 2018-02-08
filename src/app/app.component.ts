@@ -16,15 +16,15 @@ export class AppComponent implements OnInit {
       } else if (randNum === 2) {
         this.imageArray.push('MediumBlue ');
       } else if (randNum === 3) {
-        this.imageArray.push('MediumAquaMarine ');
+        this.imageArray.push('Fuchsia ');
       } else if (randNum === 4) {
         this.imageArray.push('DarkBlue ');
       } else if (randNum === 5) {
-        this.imageArray.push('CadetBlue ');
+        this.imageArray.push('IndianRed ');
       } else if (randNum === 6) {
         this.imageArray.push('Chartreuse ');
       } else if (randNum === 7) {
-        this.imageArray.push('IndianRed ');
+        this.imageArray.push('CadetBlue ');
       }
     }
   }
@@ -32,5 +32,5 @@ export class AppComponent implements OnInit {
   ngOnInit() {
     this.fillImageArray();
   }
-  
+
 }
